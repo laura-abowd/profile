@@ -1,0 +1,65 @@
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+
+ }
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #B74F6F;
+}
+
+.container {
+/*  width: 1000px;*/
+  /*margin:  auto;*/
+  display: flex;
+  justify-content: center;
+
+}
+
+#card-left {
+  width: 280px;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px;
+}
+
+#card-center {
+  display: flex;
+  justify-content: space-around;
+  max-width: 940px;
+  padding: 20px;
+  margin: 0 auto 50px auto;
+}
+
+.cards {
+  background-color: #F0EDEE;
+  flex-direction: column;
+  padding: 40px;
+  font-size: 18px;
+ /* height: 100px;*/
+}
+
+.list > li {
+  list-style: none;
+}
+
+#image-circle {
+  border-radius: 50%;
+/*  float: right;*/
+}
+
+#card-bottom {
+  font-size: 40px;
+  text-align: center;
+}
+
+#card-bottom:hover {
+  opacity: 0.7;
+}
+
